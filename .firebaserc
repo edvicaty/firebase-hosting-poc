@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "fir-hosting-poc-7b992"
+  },
+  "targets": {
+    "fir-hosting-poc-7b992": {
+      "hosting": {
+        "gatsby": [
+          "edv-gatsby-poc"
+        ],
+        "default": [
+          "fir-hosting-poc-7b992"
+        ]
+      }
+    }
   }
 }
